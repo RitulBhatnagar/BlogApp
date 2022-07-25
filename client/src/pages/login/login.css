@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login{
+  height:calc(100vh - 50px);
+  display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background: linear-gradient(
+     rgba(255, 255, 255, 0.5),
+     rgba(255, 255, 255, 0.5)
+   ),
+    url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")  no-repeat;
+   background-position: center;
+   background-size: cover;
+  }
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+  }
+  .loginTitle{
+    font-size: 4rem;
+    font-family: "Pacifico";
+    color:lightcoral;
+    text-transform: capitalize;
+  }
+  .loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  .loginButton{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: "Raleway";
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: lightpink;
+   padding: 0.375rem 0.75rem;
+    border: none;
+    color: black;
+    transition: all 0.2s linear;
+    border-radius: 10px;
+  }
+.loginButton:disabled{
+  user-select: none;
+  cursor: not-allowed;
+  background-color: red;
+}
+
+  .loginButton:hover{
+    background-color: lightcoral;
+    color: white;
+  }
+  .loginForm>label{
+    font-size: 1.5rem;
+    font-family: "poppins";
+    font-weight: 300;
+    color: rgb(199, 40, 133);
+    text-transform: capitalize;
+  }
+  .loginForm > input{
+    height: 40px;
+    border: 2px solid lightpink;
+    padding: 0.99rem 0.75rem;
+    font-family: "Poppins";
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+  }
+  .loginForm>input:focus{
+    outline: #088494f8;
+    border: 2px solid #ee5168;
+  }
+  .loginRegisterButton{
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1.4rem;
+    font-family: "Raleway";
+    font-weight: 400;
+    cursor: pointer;
+    /* background: lightseagreen; */
+    font-weight: 900;
+    border-radius: 50px;
+    transition: all 0.4s ease-in-out;
+  }
+  .loginRegisterButton:hover{
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.8)
+    );
+    color: black;
+    font-weight: 900;
+  }

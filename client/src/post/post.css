@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.post{
+  width: 385px;
+  margin: 0px 25px 48px 25px;
+}
+.postImg{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.postInfo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postCat{
+  font-family: "Pacifico";
+  font-size: 20px;
+  margin-right: 5px;
+  color: #be9656;
+  line-height: 20px;
+}
+.postTitle{
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor : pointer;
+  text-align: center;
+}
+.postDate{
+  font-family: sans-serif;
+  font-weight: 300;
+  color: grey;
+}
+.postDesc{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: "Fira-Sans"; */
+  font-size: 14px;
+  color: #444;
+line-height: 24px;
+text-align: center;
+margin-top: 10px;
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+font-weight: bolder;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}

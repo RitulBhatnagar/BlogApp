@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 4rem;
+  font-family: "Pacifico";
+  color: lightcoral;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-family: "Raleway";
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+  font-family: "Raleway";
+  height: 50px;
+  width: 300px;
+  transition: all 0.3s linear;
+}
+
+.registerInput:focus {
+  outline: #ee5168;
+  border: 3px solid #ee5168;
+}
+
+.registerButton {
+   font-family: "poppins";
+   margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background: lightpink;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-weight: 800;
+}
+.registerButton:hover{
+  background: lightcoral;
+}
+
+.registerLoginButton {
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  cursor: pointer;
+  /* background: lightseagreen; */
+  font-weight: 900;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+.registerLoginButton:hover{
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+}
